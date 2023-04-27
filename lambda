@@ -1,0 +1,15 @@
+def cube(g):
+    print(f"Finding cube of number:{g}")
+    return g * g * g 
+lambda_cube = lambda num: num ** 3
+ 
+
+print("invoking function defined with def keyword:")
+print(cube(16))
+
+print("invoking lambda function:", lambda_cube(16))
+#output
+#invoking function defined with def keyword:
+#Finding cube of number:16
+#4096
+#invoking lambda function: 4096
