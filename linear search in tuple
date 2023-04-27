@@ -1,0 +1,15 @@
+def search(Tuple, n):
+  
+    for i in range(len(Tuple)):
+        if Tuple[i] == n:
+            return True
+    return False
+
+Tuple = (1, 2, 'sachin', 4, 'good', 6)
+n = 'good'
+if search(Tuple, n):
+    print("Found")
+else:
+    print("Not Found")
+#output
+#Found
