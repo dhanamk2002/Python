@@ -1,0 +1,10 @@
+import time
+count_seconds = 7
+for i in reversed(range(count_seconds + 1)):
+    if i > 0:
+        print(i, end='>>>')
+        time.sleep(1)
+    else:
+        print('Start')
+#output
+#7>6>5>4>3>2>1>Start
