@@ -1,0 +1,19 @@
+#Local variable
+def g():
+  d="I love football"
+  print(d)
+g()
+#output 
+#I love football
+  
+#Global variable
+def g():
+ print("Inside the function",d)
+d=" I hate negative thoughts"
+g()
+print("outside the function",d)
+
+#output
+#Inside the function I hate negative thoughts
+#outside the function I hate negative thoughts
+ 
