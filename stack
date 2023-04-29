@@ -1,0 +1,27 @@
+from queue import LifoQueue     
+my_stack = LifoQueue(maxsize = 5)   
+   
+print(my_stack.qsize())   
+     
+my_stack.put('x')  
+my_stack.put('y')  
+my_stack.put('z')  
+  
+print("Stack is Full: ", my_stack.full())   
+print("Size of Stack: ", my_stack.qsize())  
+print('\nElements poped from the my_stack')   
+print(my_stack.get())   
+print(my_stack.get())   
+print(my_stack.get())   
+  
+print("\nStack is Empty: ", my_stack.empty())  
+# output
+# 0
+# Stack is Full:  False
+# Size of Stack:  3
+# Elements poped from the my_stack
+# z
+# y
+#  x
+
+# Stack is Empty:  True
