@@ -1,0 +1,8 @@
+from array import *
+print("Bytes to String: ")
+x = array('b', [114, 101, 115, 111,  117, 114, 99, 101])
+s = x.tobytes()
+print(s)
+# output
+# Bytes to String: 
+# b'resource'
