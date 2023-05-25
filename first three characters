@@ -1,0 +1,10 @@
+def first_three(str):
+	return str[:3] if len(str) > 3 else str
+
+print(first_three('bhuvana'))
+print(first_three('rajii'))
+print(first_three('dhana'))
+# output
+# bhu
+# raj
+# dha
